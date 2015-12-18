@@ -17,5 +17,5 @@ func main() {
 		log.Fatal(err)
 	}
 
-	fmt.Println(FindLevel(string(b)))
+	fmt.Println("Answer 1:", FindLevel(string(b)))
 }
